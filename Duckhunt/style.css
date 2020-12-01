@@ -1,0 +1,24 @@
+
+
+#hit, #miss, #theme {
+	margin: 0 5%;
+	font-size: 20px;
+	color: white;s
+}
+
+#stage{
+	width: 1280px;
+	height: 769px;
+	background: url('stage.png');
+	position: relative;
+}
+
+#duck {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: calc(50% + -150px);
+	left: calc(50% + -150px);
+	transition: top 1s, left 1s;
+}
+
